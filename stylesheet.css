@@ -1,0 +1,353 @@
+
+body{
+    background:#2F3243;
+}
+.blacknose{
+    clip-path: polygon(22% 44%, 25% 40%, 28% 44%);
+    background: #151011;
+    width:100%;
+    height: 100%;
+    position:absolute;
+}
+.foxrightcheek{
+    clip-path: polygon(10.4% 15.6%, 4% 27%, 13% 25%);
+    background: #FBC885;
+    width:100%;
+    height: 100%;
+    position: absolute;
+}
+.foxleftcheek {
+    clip-path: polygon(38% 25%, 39% 16%, 47% 27%);
+    background: #fbc885;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.lefteye{
+    clip-path: polygon(24% 28%, 12% 24.8%, 18% 32%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:#C93F2A;
+}
+.righteye{
+    clip-path: polygon(38% 25%, 24% 28%, 32% 33%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #C93F2A;
+}
+.nose{
+    clip-path: polygon(24% 28%, 33% 33%, 25% 40%, 18% 31%);
+    background: #B13325;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.forehead{
+    clip-path: polygon(25% 11%, 39% 16%, 38% 25%, 24% 28%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #D94529;
+}
+.foreheadl{
+    clip-path: polygon(25% 11%, 24% 28%, 13% 25%, 10% 16%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #B53625;
+}
+.leftear1{
+    clip-path: polygon(38% 4%, 25% 11%, 33% 14%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #B53625;
+}
+.leftear2{
+    clip-path: polygon(38% 4%, 34.3% 11%, 39% 16%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #D34825;
+}
+.leftear3{
+    clip-path: polygon(34.3% 11%, 33% 14%, 39% 16%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #6F1612;
+}
+.rightear1{
+    clip-path: polygon(11% 4%, 17% 14%, 25% 11%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #A52F23
+}
+.rightear2{
+    clip-path: polygon(11% 4%, 10% 16%, 15.4% 11%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #D34825;
+}
+.rightear3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #6F1612;
+    clip-path: polygon(15.4% 11%, 10% 16%, 17% 14%); 
+}
+.rightcheek1{
+    clip-path: polygon(13% 25%, 4% 27%, 23% 44%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #FFDEA9;
+}
+.rightcheek2{
+    clip-path: polygon(13% 25%, 22% 44%, 25% 40%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #F8C88C;
+}
+.leftcheek1{
+    clip-path: polygon(38% 25%, 27% 44%, 46% 26.6%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #FFDEA9;
+}
+.leftcheek2{
+    clip-path: polygon(38% 25%, 25% 40%, 28% 44%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #F8C88C;
+}
+.tip{
+    clip-path: polygon(23.6% 44%, 26.6% 44%, 25% 47%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #B53A24;
+}
+.mouth{
+    clip-path: polygon(73% 36%, 81% 39%, 77% 45%, 68% 45%, 64% 40%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #B3B3B3;
+}
+.nak{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: black;
+    clip-path: polygon(73% 36%, 65% 30%, 80% 30%);
+}
+.nakup{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    clip-path: polygon(73% 22%, 65% 30%, 80% 30%);
+    background: #C4C4C4;
+}
+.eyel{
+    clip-path: polygon(73% 22%, 79% 28%, 86% 23%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #494949;
+    animation: col_change 1s infinite alternate;
+}
+.eyer{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #494949;
+    clip-path: polygon(73% 22%, 66% 28%, 58% 23%);
+    animation: col_change 1s infinite alternate;
+}
+@keyframes col_change{
+    from{background: #494949;}
+    to{background:green;}
+}
+.eyecircler{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    clip-path: polygon(59% 35%, 66% 28%, 58% 23%);
+    background: #888888;
+}
+.eyecirclel{
+    clip-path: polygon(79% 28%, 86% 23%, 85% 33%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #888888;
+}
+.headl{
+    clip-path: polygon(87% 18%, 91% 29%, 86% 23%, 73% 22%, 72% 12%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #888888;
+}
+.headr{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #717171;
+    clip-path: polygon(73% 22%, 58% 23%, 54% 29%, 57% 18%, 72% 12%);
+}
+.cheekl{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #C4C4C4;
+    clip-path: polygon(80% 30%, 85% 33%, 81% 39%, 73% 36%);
+}
+.cheekr{
+    clip-path: polygon(65% 30%, 59% 35%, 64% 40%, 73% 36%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #C4C4C4;
+}
+.gall{
+    clip-path: polygon(92% 30%, 86% 23%, 85% 33%, 80% 40%);
+    background: #B3B3B3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.gallr{
+    clip-path: polygon(59% 33%, 58% 23%, 52% 32%, 64% 39%);
+    background: #B3B3B3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.earr1{
+    clip-path: polygon(59% 5%, 64% 15.4%, 71% 12.4%);
+    background: #B3B3B3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.earr2{
+    clip-path: polygon(61% 9%, 59% 5%, 57% 18%);
+    background: #717171;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.earr3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    clip-path: polygon(61% 9%, 57% 18%, 64% 15.4%);
+    background: #484848;
+}
+.earl1{
+    background: #B3B3B3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    clip-path: polygon(81% 15.6%, 73.5% 12.7%, 85% 5%);
+}
+.earl2{
+    background: #717171;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+    clip-path: polygon(87% 18%, 83.7% 8%, 85% 5%);
+}
+.earl3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #484848;
+    clip-path: polygon(87% 18%, 81% 15.6%, 83.7% 8%); 
+}
+.dimplel{
+    background: #B3B3B3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    clip-path: polygon(80% 30%, 73% 22%, 85% 33%);
+}
+.dimpler{
+    background: #B3B3B3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    clip-path: polygon(65% 28%, 73% 22.2%, 59% 35.6%);
+}
+.bhead{
+    clip-path: polygon(25% 97%, 43% 84%, 40% 65%, 41% 59%, 36% 57%, 32% 59%, 18% 60%, 14% 57%, 9% 59%, 10% 66%, 7% 84%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #592C02;
+}
+.bfacer{
+    clip-path: polygon(10% 66%, 25% 59.6%, 25% 97%, 10% 82%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #653302;
+}
+.bfacel{
+    clip-path: polygon(25% 59.6%, 40% 65%, 40% 83%, 25% 97%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #713900;
+}
+.bmouth{
+    clip-path: polygon(28% 71%, 34% 82%, 32% 90%, 25% 97%, 18% 90%, 15% 83%, 22% 71%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #F7CA89;
+}
+.noseup{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #FFDEAB;
+    clip-path: polygon(25% 71%, 18% 82.5%, 31% 82.5%);
+}
+.nosedown{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: black;
+    clip-path: polygon(18% 82.5%, 31% 82.5%, 24.5% 90%);
+}
+.bil{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    clip-path: polygon(30.4% 75%, 28% 71%, 36% 71%);
+    background: #422105; 
+    animation: color_change 1s infinite alternate;
+}
+.bir{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: #422105;
+    clip-path: polygon(19.6% 75%, 14% 71%, 22% 71%);
+    animation: color_change 1s infinite alternate;
+}
+@keyframes color_change{
+    from{ background-color:#422105;}
+    to{background-color: green;}
+}
+.fox{}
